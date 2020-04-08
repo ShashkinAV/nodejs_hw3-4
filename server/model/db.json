@@ -1,0 +1,67 @@
+{
+  "skills": [
+    {
+      "id": "age",
+      "number": "9",
+      "text": "Возраст начала занятий на скрипке"
+    },
+    {
+      "id": "concerts",
+      "number": "12",
+      "text": "Концертов отыграл"
+    },
+    {
+      "id": "cities",
+      "number": "9",
+      "text": "Максимальное число городов в туре"
+    },
+    {
+      "id": "years",
+      "number": "11",
+      "text": "Лет на сцене в качестве скрипача"
+    }
+  ],
+  "admin": {
+    "email": "tx@mail.ru",
+    "password": "qwerty"
+  },
+  "messages": [
+    {
+      "name": "Админ",
+      "email": "tx@mail.ru",
+      "message": "Привет Мир!!!!"
+    }
+  ],
+  "products": [
+    {
+      "src": "./assets/img/products/Work1.jpg",
+      "name": "Вино вдохновение",
+      "price": "600"
+    },
+    {
+      "src": "./assets/img/products/Work2.jpg",
+      "name": "Вино вдохновение",
+      "price": "600"
+    },
+    {
+      "src": "./assets/img/products/Work3.jpg",
+      "name": "Вино вдохновение",
+      "price": "600"
+    },
+    {
+      "src": "./assets/img/products/Work4.jpg",
+      "name": "Вино вдохновение",
+      "price": "600"
+    },
+    {
+      "src": "./assets/img/products/Work5.jpg",
+      "name": "Вино вдохновение",
+      "price": "600"
+    },
+    {
+      "src": "./assets/img/products/Work6.jpg",
+      "name": "Вино вдохновение",
+      "price": "600"
+    }
+  ]
+}

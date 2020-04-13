@@ -7,17 +7,16 @@ var square = b => {
 var variable = 8;
 
 /**
- *
- *
+ * 
+ * 
  * @class MyClass
  */
 class MyClass {
-  constructor (credentials) {
+  constructor(credentials) {
     this.name = credentials.name;
     this.enrollmentNo = credentials.enrollmentNo;
   }
-
-  getName () {
+  getName() {
     return this.name;
   }
 }

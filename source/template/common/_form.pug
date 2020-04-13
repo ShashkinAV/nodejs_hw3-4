@@ -1,9 +1,9 @@
 section#form.form
   .container
-    .form__subtitle.subtitle Контактные данные
-    h2.form__title.title Пишите, пообщаемся
     if (msgemail)
       .status= msgemail
+    .form__subtitle.subtitle Контактные данные
+    h2.form__title.title Пишите, пообщаемся
     form(action="/" method="POST").form-email
       .form-email__line
         label.form-email__label(for="") Имя *

@@ -2,36 +2,30 @@
   "skills": [
     {
       "id": "age",
-      "number": "9",
+      "number": "30",
       "text": "Возраст начала занятий на скрипке"
     },
     {
       "id": "concerts",
-      "number": "12",
+      "number": "15",
       "text": "Концертов отыграл"
     },
     {
       "id": "cities",
-      "number": "9",
+      "number": "15",
       "text": "Максимальное число городов в туре"
     },
     {
       "id": "years",
-      "number": "11",
+      "number": "15",
       "text": "Лет на сцене в качестве скрипача"
     }
   ],
+  "messages": [],
   "admin": {
     "email": "tx@mail.ru",
     "password": "qwerty"
   },
-  "messages": [
-    {
-      "name": "Админ",
-      "email": "tx@mail.ru",
-      "message": "Привет Мир!!!!"
-    }
-  ],
   "products": [
     {
       "src": "./assets/img/products/Work1.jpg",
@@ -62,6 +56,11 @@
       "src": "./assets/img/products/Work6.jpg",
       "name": "Вино вдохновение",
       "price": "600"
+    },
+    {
+      "src": "./assets/img/products/Круг - 4K.jpg",
+      "name": "123",
+      "price": "123"
     }
   ]
 }

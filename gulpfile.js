@@ -1,6 +1,6 @@
 'use strict';
 
-const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV === 'development';
+const isDevelopment = !process.env.NODE_ENV || process.env.NODE_ENV == 'development';
 
 global.$ = {
   dev: isDevelopment,
@@ -15,12 +15,12 @@ global.$ = {
   gulp: require('gulp'),
   del: require('del'),
   merge: require('merge-stream'),
-  browserify: require('browserify'),
-  source: require('vinyl-source-stream'),
-  buffer: require('vinyl-buffer'),
-  babel: require('babelify'),
+  browserify : require('browserify'),
+  source : require('vinyl-source-stream'),
+  buffer : require('vinyl-buffer'),
+  babel : require('babelify'),
   browserSync: require('browser-sync').create(),
-  fs: require('fs'),
+  fs : require('fs'),
   gp: require('gulp-load-plugins')({
     rename: {
       'gulp-replace-task': 'replaceTask'
@@ -28,7 +28,7 @@ global.$ = {
   })
 };
 
-$.path.task.forEach(function (taskPath) {
+$.path.task.forEach(function(taskPath) {
   require(taskPath)();
 });
 

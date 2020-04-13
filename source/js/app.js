@@ -1,1 +1,1 @@
-console.log('Home');
+let a = 'a';
